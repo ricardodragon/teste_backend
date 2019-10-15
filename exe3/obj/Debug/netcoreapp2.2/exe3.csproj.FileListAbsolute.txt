@@ -1,0 +1,11 @@
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\exe3\bin\Debug\netcoreapp2.2\exe3.deps.json
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\exe3\bin\Debug\netcoreapp2.2\exe3.runtimeconfig.json
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\exe3\bin\Debug\netcoreapp2.2\exe3.runtimeconfig.dev.json
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\exe3\bin\Debug\netcoreapp2.2\exe3.dll
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\exe3\bin\Debug\netcoreapp2.2\exe3.pdb
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\exe3\obj\Debug\netcoreapp2.2\exe3.csprojAssemblyReference.cache
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\exe3\obj\Debug\netcoreapp2.2\exe3.csproj.CoreCompileInputs.cache
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\exe3\obj\Debug\netcoreapp2.2\exe3.AssemblyInfoInputs.cache
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\exe3\obj\Debug\netcoreapp2.2\exe3.AssemblyInfo.cs
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\exe3\obj\Debug\netcoreapp2.2\exe3.dll
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\exe3\obj\Debug\netcoreapp2.2\exe3.pdb

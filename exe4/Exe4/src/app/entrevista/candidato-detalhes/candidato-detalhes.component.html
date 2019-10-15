@@ -1,0 +1,29 @@
+<form name="cadastro">
+    <h2  class="text-center">Candidato</h2>
+    <label>Nome :</label>{{candidato.name}}<br/>
+    <label style="font-weight: bold;">Selecione as habilidades : </label>
+    <span *ngFor="let skil of skils" class="ml-5">
+        <input type="checkbox" name="{{skil.name}}" value="{{skil}}" [(ngModel)]="skil.selected"/>                
+        {{skil.name}}
+    </span>
+    <button (click)="salvarSkil(candidato, skils)"></button>        
+    <!-- <input type="radio" *ngFor="let skil of skils">     -->
+</form>
+<div class="table-responsive">
+    <table class="table">
+        <thead>    
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let skil of candidato.candidatoSkil">
+                <td>{{candidato.id}}</td>
+                <td>{{candidato.name}}</td>                
+                <td><button>Ver Habilidades</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

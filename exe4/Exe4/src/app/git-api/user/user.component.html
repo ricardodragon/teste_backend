@@ -1,0 +1,23 @@
+<p><label>Id : </label>{{user.id}}</p>
+<p><label>Login : </label>{{user.login}}</p>
+<p><label>Url do perfil : </label><a href={{user.html_url}}>{{user.html_url}}</a></p>
+<p><label>Data de cadastro : </label>{{user.created_at}}</p>
+<div class="table-responsive">
+    <table class="table">
+        <thead>    
+            <tr>
+                <th>Id</th>
+                <th>Login</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let repo of user.repos">
+                <td>{{repo.id}}</td>
+                <td>{{repo.name}}</td>
+                <td><a href={{repo.html_url}}>{{repo.html_url}}</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<p>{{user.repos}}</p>

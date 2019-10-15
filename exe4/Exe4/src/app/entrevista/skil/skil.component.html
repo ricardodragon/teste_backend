@@ -1,0 +1,29 @@
+<form name="skil" class="text-center">
+    <h2>Cadastro de Candidato</h2>
+    <label>Nome</label>
+    <input class="form-controll" type="text" name="name" [(ngModel)]="skil.name"/>  
+    <label>Descricao</label>
+    <input class="form-controll" type="text" name="descricao" [(ngModel)]="skil.descricao"/>    
+    <button class="btn btn-success" (click)="cadastrar(skil)">Cadastrar</button>
+</form>
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+                <!-- *ngFor="let head of headElements" -->
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Descrição</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let skil of skils">
+                <td>{{skil.id}}</td>
+                <td>{{skil.name}}</td>
+                <td>{{skil.descricao}}</td>
+                <td><button class="btn btn-primary btn-sm">Visualizar Skils</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

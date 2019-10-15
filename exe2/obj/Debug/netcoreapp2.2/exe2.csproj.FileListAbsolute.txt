@@ -1,0 +1,11 @@
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\exe2\bin\Debug\netcoreapp2.2\exe2.deps.json
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\exe2\bin\Debug\netcoreapp2.2\exe2.runtimeconfig.json
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\exe2\bin\Debug\netcoreapp2.2\exe2.runtimeconfig.dev.json
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\exe2\bin\Debug\netcoreapp2.2\exe2.dll
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\exe2\bin\Debug\netcoreapp2.2\exe2.pdb
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\exe2\obj\Debug\netcoreapp2.2\exe2.csprojAssemblyReference.cache
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\exe2\obj\Debug\netcoreapp2.2\exe2.csproj.CoreCompileInputs.cache
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\exe2\obj\Debug\netcoreapp2.2\exe2.AssemblyInfoInputs.cache
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\exe2\obj\Debug\netcoreapp2.2\exe2.AssemblyInfo.cs
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\exe2\obj\Debug\netcoreapp2.2\exe2.dll
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\exe2\obj\Debug\netcoreapp2.2\exe2.pdb

@@ -1,0 +1,19 @@
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+                <!-- *ngFor="let head of headElements" -->
+            <tr>
+                <th>Id</th>
+                <th>Login</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of users">
+                <td>{{user.id}}</td>
+                <td>{{user.login}}</td>
+                <td><button class="btn btn-primary" [routerLink]="['/user/',user.id]">Visualizar</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

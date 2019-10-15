@@ -1,0 +1,24 @@
+<form name="vaga" class="text-center">
+    <h2>Cadastro de Vaga</h2>
+    <label>Descrição</label>
+    <input class="form-controll" type="text" name="descricao" [(ngModel)]="vaga.descricao"/>    
+    <button class="btn btn-success" (click)="cadastrar(vaga)">Cadastrar</button>
+</form>
+<div class="table-responsive">
+    <table class="table">
+        <thead>    
+            <tr>
+                <th>Id</th>
+                <th>Descrição</th>
+                <th>Habilidades</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let vaga of vagas">
+                <td>{{vaga.id}}</td>
+                <td>{{vaga.descricao}}</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
