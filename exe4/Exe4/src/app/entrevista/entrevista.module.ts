@@ -9,10 +9,11 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { CandidatoDetalhesComponent } from './candidato-detalhes/candidato-detalhes.component';
 import { EntrevistaComponent } from './entrevista/entrevista.component';
+import { ResultadoComponent } from './resultado/resultado.component';
 
 @NgModule({
-    declarations: [ SkilComponent, CandidatoComponent, VagaComponent, CandidatoDetalhesComponent, EntrevistaComponent ],
-    exports: [ SkilComponent, CandidatoComponent, VagaComponent, CandidatoDetalhesComponent, EntrevistaComponent ],
+    declarations: [ SkilComponent, CandidatoComponent, VagaComponent, CandidatoDetalhesComponent, EntrevistaComponent, ResultadoComponent ],
+    exports: [ SkilComponent, CandidatoComponent, VagaComponent, CandidatoDetalhesComponent, EntrevistaComponent, ResultadoComponent ],
     imports: [ HttpClientModule, CommonModule, RouterModule, FormsModule ]
 })
 export class EntrevistaModule {  }

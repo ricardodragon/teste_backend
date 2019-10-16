@@ -18,7 +18,7 @@ namespace exe7_8_9.services{
 
         public List<Candidato> listCandidatos()
         {
-            return this.context.candidato.ToList();
+            return this.context.candidato.Include(c=> c.candidatoSkil).ThenInclude(cs=>cs.skil).ToList();
         }
 
         public Candidato saveCandidato(Candidato candidato)

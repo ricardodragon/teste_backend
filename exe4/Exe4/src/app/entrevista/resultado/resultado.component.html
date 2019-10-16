@@ -1,0 +1,11 @@
+
+<h2>Resultados</h2>
+<h3>Vaga : {{entrevista.vaga.descricao}}</h3>
+<ul class="list-group">
+    <li class="list-group-item"  *ngFor="let candidato of candidatos">
+        <label>Id : </label>{{candidato.id}}
+        <label>Nome : </label>{{candidato.name}}        
+        <h4>Skils : </h4>
+        <p><span *ngFor="let candidatoSkil of candidato.candidatoSkil" class="mr-5">{{candidatoSkil.skil.name}} &nbsp; {{candidatoSkil.skil.pontos}} pontos</span></p>
+    </li>    
+</ul>

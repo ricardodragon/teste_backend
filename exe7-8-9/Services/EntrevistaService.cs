@@ -13,7 +13,7 @@ namespace exe7_8_9.services{
 
         public Entrevista getEntrevista(int id)
         {
-            return this.context.entrevista.Include(e=>e.vaga).Where(e=>e.id == id).FirstOrDefault();
+            return this.context.entrevista.Include(e=>e.vaga).Include(e=>e.entrevistaSkil).ThenInclude(es=>es.skil).Where(e=>e.id == id).FirstOrDefault();
         }
 
         public List<Entrevista> listEntrevistas()

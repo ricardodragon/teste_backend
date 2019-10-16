@@ -7,6 +7,7 @@ import { VagaComponent } from './entrevista/vaga/vaga.component';
 import { SkilComponent } from './entrevista/skil/skil.component';
 import { CandidatoDetalhesComponent } from './entrevista/candidato-detalhes/candidato-detalhes.component';
 import { EntrevistaComponent } from './entrevista/entrevista/entrevista.component';
+import { ResultadoComponent } from './entrevista/resultado/resultado.component';
 
 
 const routes: Routes = [
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path: 'vagas', component: VagaComponent},
   {path: 'skils', component: SkilComponent},
   {path: 'entrevista', component: EntrevistaComponent},
+  {path: 'resultado/:id', component: ResultadoComponent},
   {path: '**', component: UsersComponent}
 ];
 
