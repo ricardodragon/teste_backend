@@ -12,42 +12,42 @@ namespace exe7_8_9.Controllers
     [ApiController]
     public class CandidatoSkilController : ControllerBase
     {
-        private readonly ICandidatoService candidatoService;
-        public CandidatoSkilController(ICandidatoService candidatoService){
-            this.candidatoService = candidatoService;
+        private readonly ICandidatoSkilService candidatoSkilService;
+        public CandidatoSkilController(ICandidatoSkilService candidatoSkilService){
+            this.candidatoSkilService = candidatoSkilService;
         }
         // GET api/values
         [HttpGet]
         public ActionResult<Object> Get()
         {
-            return Ok(this.candidatoService.listCandidatos());
+            return Ok();//this.candidatoSkilService.listCandidatos());
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
         public ActionResult<Object> Get(int id)
         {
-            return Ok(this.candidatoService.getCandidato(id));
+            return Ok();//this.candidatoSkilService.getCandidato(id));
         }
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
         public ActionResult<Object> Delete(int id)
         {
-            return Ok(this.candidatoService.deleteCandidato(id));
+            return Ok();//this.candidatoSkilService.deleteCandidato(id));
         }
 
         // POST api/values
         [HttpPost]
-        public ActionResult<Object> Post([FromBody] Candidato candidato)
+        public ActionResult<Object> Post([FromBody] List<CandidatoSkil> candidatoSkil)
         {
-            return Ok(this.candidatoService.saveCandidato(candidato));
+            return Ok(this.candidatoSkilService.saveCandidatoSkil(candidatoSkil));
         }
 
         // PUT api/values/5
         [HttpPut("{id}")]
         public ActionResult<Object> Put(int id, [FromBody] Candidato candidato){
-            return Ok(this.candidatoService.updateCandidato(candidato));
+            return Ok();//this.candidatoSkilService.updateCandidato(candidato));
         }
 
     }

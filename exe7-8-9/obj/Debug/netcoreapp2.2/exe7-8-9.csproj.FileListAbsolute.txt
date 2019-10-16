@@ -12,3 +12,17 @@ C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\exe7-8-9\bin\Debug\netcoreap
 C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\exe7-8-9\obj\Debug\netcoreapp2.2\exe7-8-9.RazorTargetAssemblyInfo.cache
 C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\exe7-8-9\obj\Debug\netcoreapp2.2\exe7-8-9.dll
 C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\exe7-8-9\obj\Debug\netcoreapp2.2\exe7-8-9.pdb
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\teste_backend\exe7-8-9\bin\Debug\netcoreapp2.2\exe7-8-9.deps.json
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\teste_backend\exe7-8-9\bin\Debug\netcoreapp2.2\exe7-8-9.runtimeconfig.json
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\teste_backend\exe7-8-9\bin\Debug\netcoreapp2.2\exe7-8-9.runtimeconfig.dev.json
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\teste_backend\exe7-8-9\bin\Debug\netcoreapp2.2\exe7-8-9.dll
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\teste_backend\exe7-8-9\bin\Debug\netcoreapp2.2\exe7-8-9.pdb
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\teste_backend\exe7-8-9\obj\Debug\netcoreapp2.2\exe7-8-9.csprojAssemblyReference.cache
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\teste_backend\exe7-8-9\obj\Debug\netcoreapp2.2\exe7-8-9.csproj.CoreCompileInputs.cache
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\teste_backend\exe7-8-9\obj\Debug\netcoreapp2.2\exe7-8-9.RazorAssemblyInfo.cache
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\teste_backend\exe7-8-9\obj\Debug\netcoreapp2.2\exe7-8-9.RazorAssemblyInfo.cs
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\teste_backend\exe7-8-9\obj\Debug\netcoreapp2.2\exe7-8-9.AssemblyInfoInputs.cache
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\teste_backend\exe7-8-9\obj\Debug\netcoreapp2.2\exe7-8-9.AssemblyInfo.cs
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\teste_backend\exe7-8-9\obj\Debug\netcoreapp2.2\exe7-8-9.RazorTargetAssemblyInfo.cache
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\teste_backend\exe7-8-9\obj\Debug\netcoreapp2.2\exe7-8-9.dll
+C:\Users\Lupeon-TI-008\OneDrive\Back-End\teste_vaga\teste_backend\exe7-8-9\obj\Debug\netcoreapp2.2\exe7-8-9.pdb

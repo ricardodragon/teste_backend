@@ -12121,11 +12121,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lupeon-TI-008\\OneDrive\\Back-End\\teste_vaga\\exe7-8-9\\exe7-8-9.csproj",
+      "projectUniqueName": "c:\\Users\\Lupeon-TI-008\\OneDrive\\Back-End\\teste_vaga\\teste_backend\\exe7-8-9\\exe7-8-9.csproj",
       "projectName": "exe7-8-9",
-      "projectPath": "C:\\Users\\Lupeon-TI-008\\OneDrive\\Back-End\\teste_vaga\\exe7-8-9\\exe7-8-9.csproj",
+      "projectPath": "c:\\Users\\Lupeon-TI-008\\OneDrive\\Back-End\\teste_vaga\\teste_backend\\exe7-8-9\\exe7-8-9.csproj",
       "packagesPath": "C:\\Users\\Lupeon-TI-008\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lupeon-TI-008\\OneDrive\\Back-End\\teste_vaga\\exe7-8-9\\obj\\",
+      "outputPath": "c:\\Users\\Lupeon-TI-008\\OneDrive\\Back-End\\teste_vaga\\teste_backend\\exe7-8-9\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

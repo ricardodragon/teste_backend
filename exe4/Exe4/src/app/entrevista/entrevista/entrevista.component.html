@@ -1,0 +1,40 @@
+<h2>Cadastro de Entrevista</h2>
+<form>
+    <div class="form-group">
+        <label for="data">Data</label>
+        <input type="date" class="form-control" id="data" name="nome" [(ngModel)]="entrevista.data">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">Selecione a Vaga</label>
+        <select class="form-control" name="name" [(ngModel)]="entrevista.vagaId">
+            <option *ngFor="let vaga of vagas" [value]="vaga.id">{{vaga.descricao}}</option>        
+        </select>                
+    </div>
+    <div class="row">
+        <div class="form-group col" *ngFor="let skil of skils">
+            <label for="exampleFormControlSelect2">{{skil.name}}</label>
+            <input type="number" name="pontos" class="form-control" [(ngModel)]="skil.pontos">
+        </div>            
+    </div>
+    <button class="btn btn-success" (click)="cadastrar(entrevista, skils)">Cadastrar</button>
+</form>
+<div class="table-responsive">
+    <table class="table">
+        <thead>    
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Vaga</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let entrevista of entrevistas">
+                <td>{{entrevista.id}}</td>
+                <td>{{entrevista.data}}</td>                
+                <td>{{entrevista.vaga.descricao}}</td>
+                <td><button [routerLink]="['/resultado/',entrevista.id]" class="btn btn-primary btn-sm">Ver Resultados</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

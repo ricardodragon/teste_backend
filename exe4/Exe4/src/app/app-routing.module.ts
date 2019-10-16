@@ -6,6 +6,7 @@ import { CandidatoComponent } from './entrevista/candidato/candidato.component';
 import { VagaComponent } from './entrevista/vaga/vaga.component';
 import { SkilComponent } from './entrevista/skil/skil.component';
 import { CandidatoDetalhesComponent } from './entrevista/candidato-detalhes/candidato-detalhes.component';
+import { EntrevistaComponent } from './entrevista/entrevista/entrevista.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'candidato/:id', component: CandidatoDetalhesComponent},
   {path: 'vagas', component: VagaComponent},
   {path: 'skils', component: SkilComponent},
+  {path: 'entrevista', component: EntrevistaComponent},
   {path: '**', component: UsersComponent}
 ];
 

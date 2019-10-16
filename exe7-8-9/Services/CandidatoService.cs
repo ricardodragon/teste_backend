@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using api_integracao_ocorrencia.Utils;
 using exe7_8_9.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace exe7_8_9.services{
     public class CandidatoService : ICandidatoService
@@ -12,7 +13,7 @@ namespace exe7_8_9.services{
         }
         public List<Candidato> getCandidato(int id)
         {
-            return this.context.candidato.Where(x=>x.id==id).ToList();
+            return this.context.candidato.Include(c=> c.candidatoSkil).ThenInclude(cs=>cs.skil).Where(x=>x.id==id).ToList();
         }
 
         public List<Candidato> listCandidatos()

@@ -32,12 +32,14 @@ namespace exe7_8_9
             services.AddTransient<IVagaService, VagaService>();
             services.AddTransient<ICandidatoService, CandidatoService>();
             services.AddTransient<ISkilService, SkilService>();
+            services.AddTransient<ICandidatoSkilService, CandidatoSkilService>();
+            services.AddTransient<IEntrevistaService, EntrevistaService>();
             services.AddCors(o => o.AddPolicy("MyPolicy", builder => {
                 builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
             }));
             services.AddDbContext<Context> (options =>
                 options.UseSqlServer(Configuration.GetConnectionString ("db")));
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2).AddJsonOptions(options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
         }
 

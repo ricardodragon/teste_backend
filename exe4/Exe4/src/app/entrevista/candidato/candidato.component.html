@@ -1,8 +1,22 @@
-<form name="cadastro" class="text-center">
-    <h2>Cadastro de Candidato</h2>
-    <label>Nome</label>
-    <input class="form-controll" name="name" type="text" [(ngModel)]="candidato.name"/>
-    <button class="btn btn-success" (click)="cadastrar(candidato)">Cadastrar</button>
+
+<h2 >Cadastro de Candidato</h2>
+<form name="cadastro" class="text-center form-inline">    
+    <div class="row">
+        <div class="col">
+            <label>Nome</label>
+            <input class="form-control" name="name" type="text" [(ngModel)]="candidato.name"/>
+        </div>
+        <div class="col">
+            <label >Selecione as habilidades : </label>                                
+            <span *ngFor="let skil of skils">
+                <input type="checkbox" name="{{skil.name}}" value="{{skil.selected}}" [(ngModel)]="skil.selected"/>                
+                {{skil.name}}
+            </span>
+        </div>
+        <div class="col">
+            <button class="btn btn-success" (click)="cadastrar(candidato, skils)">Cadastrar</button>
+        </div>
+    </div>
 </form>
 <div class="table-responsive">
     <table class="table">
@@ -17,7 +31,7 @@
             <tr *ngFor="let candidato of candidatos">
                 <td>{{candidato.id}}</td>
                 <td>{{candidato.name}}</td>                
-                <td><button [routerLink]="['/candidato/',candidato.id]">Ver Habilidades</button></td>
+                <td><button [routerLink]="['/candidato/',candidato.id]" class="btn btn-primary btn-sm">Ver Habilidades</button></td>
             </tr>
         </tbody>
     </table>

@@ -11,7 +11,7 @@ export class CandidatoService {
   }
   listCandidatos(api){
     return this.http.get<JSON>(api);    
-  }
+  }  
   saveCandidato(api, body){    
     return this.http.post<JSON>(api, body);    
   }
